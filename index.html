@@ -1,12 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>You have arrived</title>
+<title>C-FUPS</title>
+<style type="text/css">
+* {margin: 0; padding: 10;}
+#container {height: 100%; width:100%; font-size: 0;}
+#left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
+#left {width: 25%; }
+#middle {width: 50%; }
+#right {width: 25%; }
+
+.header1 {background-color: rgb(161, 134, 126);}
+.header {width: 100%; height: 400px; background-color: rgb(161, 134, 126);}
+
+body {
+  font-family: Arial;
+  margin: 0px;
+}
+.content {padding:20px;}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+</style>
 </head>
-	<body>
-	    There there.
-	    <img src="image.jpg" height="100" width="100">
-	</body>
+<body>
+<div style="background-color: rgb(161, 134, 126); height: 100%; width: 100%;">
+    <img src="cfups.png" height="100%" width="150px" style="padding: 25px;">
+</div>
+<div class="header">
+    <h1>Positive Rate</h1>
+    <p>An experience you won't forget</p>
+</div>
+<div id="container">
+    <div id="left">
+        <img src="left_image.jpg" height="100%" width="100%">
+    </div>
+    <div id="middle">
+        <img src="center_image.jpg" height="100%" width="100%">
+    </div>
+    <div id="right">
+        <img src="right_image.jpg" height="100%" width="100%">
+    </div>
+</div>
+</body>
 </html>
